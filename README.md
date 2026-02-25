@@ -21,15 +21,6 @@ No admin rights required.
 - CD/Retail (Reality Pump / TopWare)
 - SDK (`D:\Games\TwoWorlds`)
 
-## Building
-
-Prerequisite: `pip install pyinstaller`
-
-```
-pyinstaller --onefile --windowed --name "TwoWorlds_Mod_Installer" --add-data "Logo.png;." --icon "Logo.ico" tw_mod_installer.py
-```
-
-Or simply run `build.bat`. The finished EXE will be in `dist\`.
 
 ## Help Menu
 
